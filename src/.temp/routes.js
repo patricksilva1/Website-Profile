@@ -1,10 +1,10 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--tag-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/templates/Tag.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--templates--documentation-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/templates/Documentation.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/pages/Blog.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/templates/Post.vue")
-const c5 = () => import(/* webpackChunkName: "page--src--pages--docs-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/pages/Docs.vue")
-const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/pages/404.vue")
-const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/patrick/Documents/Github/Website_Profile/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--templates--tag-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Tag.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--templates--documentation-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Documentation.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Blog.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Post.vue")
+const c5 = () => import(/* webpackChunkName: "page--src--pages--docs-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Docs.vue")
+const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/404.vue")
+const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Index.vue")
 
 export default [
   {
@@ -15,7 +15,7 @@ export default [
     path: "/docs/vue-components-in-markdown/",
     component: c2,
     meta: {
-      $vueRemark: () => import(/* webpackChunkName: "vue-remark--docs--vue-components-in-markdown-md" */ "/home/patrick/Documents/Github/Website_Profile/docs/vue-components-in-markdown.md")
+      $vueRemark: () => import(/* webpackChunkName: "vue-remark--docs--vue-components-in-markdown-md" */ "/home/patrick/Desktop/Website-Profile/docs/vue-components-in-markdown.md")
     }
   },
   {
