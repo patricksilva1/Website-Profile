@@ -1,12 +1,10 @@
-# Gridsome Portfolio Starter
-
-A simple portfolio starter theme for Gridsome
+# Patrick's Portfolio
 
 ![screenshot](./README-Files/Screenshot.png)
 
 ## Demo URL
 
-[https://patricksilva1.github.io]
+[https://patricksilva.me]
 
 ## Features
 
