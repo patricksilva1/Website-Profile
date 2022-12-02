@@ -2,7 +2,7 @@
 title: Hello World
 path: /developer
 date: 2022-12-01
-summary: Hello World.
+summary: Hello World, the beginning.
 tags: ['design', 'backend']
 ---
 
