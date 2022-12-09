@@ -42,14 +42,18 @@
         </div>
 
         <ul class="text-lg sm:text-xl space-y-6">
+
           <li class="checkmark">
-            <div>Blockchain DeepMoment</div>
-            <div class="text-lg text-gray-600">This is an initial implementation of one of the most used services in the
-              economic sector today. Here is a brief example of that project:
-              <a target="_blank" href="https://github.com/patricksilva1/Blockchain-DeepMoment">Look here</a>
+            <div>Cryptocurrency</div>
+            <div class="text-lg text-gray-600">This is a personal project, cryptocurrency is a digital currency designed
+              to work as a medium of exchange through a
+              computer network that is not reliant on any central authority, such as a government or bank, to uphold or
+              maintain it. You can check it here:
+              <a target="_blank" href="https://github.com/patricksilva1/Cryptocurrency">Look here</a>
             </div>
 
           </li>
+
           <li class="checkmark">
             <div>API Restfull + PostgreSQL</div>
             <div class="text-lg text-gray-600">A modern implementation for an interface that two computer systems use to
@@ -62,6 +66,14 @@
             <div class="text-lg text-gray-600">A Photo application, using the Spring Boot framework and the entire
               Microservices structure. <a target="_blank"
                 href="https://github.com/patricksilva1/PhotoApp-SpringCloud-Microservice">Look here</a></div>
+          </li>
+          <li class="checkmark">
+            <div>Blockchain</div>
+            <div class="text-lg text-gray-600">This is an implementation of one of the most used services in the
+              economic sector today. Here is a brief example of that project:
+              <a target="_blank" href="https://github.com/patricksilva1/Blockchain">Look here</a>
+            </div>
+
           </li>
 
         </ul>
