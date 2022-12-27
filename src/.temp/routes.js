@@ -1,7 +1,7 @@
 const c1 = () => import(/* webpackChunkName: "page--src--templates--tag-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Tag.vue")
 const c2 = () => import(/* webpackChunkName: "page--src--templates--documentation-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Documentation.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Blog.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Post.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--templates--post-vue" */ "/home/patrick/Desktop/Website-Profile/src/templates/Post.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Blog.vue")
 const c5 = () => import(/* webpackChunkName: "page--src--pages--docs-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Docs.vue")
 const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/404.vue")
 const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/patrick/Desktop/Website-Profile/src/pages/Index.vue")
@@ -19,12 +19,20 @@ export default [
     }
   },
   {
-    path: "/blog/:page(\\d+)?/",
+    path: "/blog/2022-12-27-test/",
     component: c3
   },
   {
-    path: "/developer/",
+    path: "/blog/:page(\\d+)?/",
     component: c4
+  },
+  {
+    path: "/hello/",
+    component: c3
+  },
+  {
+    path: "/developerJava/",
+    component: c3
   },
   {
     path: "/docs/",
